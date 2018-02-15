@@ -20,3 +20,9 @@
 # josephus([1,2,3,4,5,6,7],3)==[3,6,2,7,5,1,4]
 
 def josephus(items,k):
+    i = 0
+    output = []
+    while items:
+        i = (i + k - 1) % len(items)
+        output.append(items.pop(i))
+    return output
