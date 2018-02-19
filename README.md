@@ -1,2 +1,1 @@
-
-<img src="https://www.codewars.com/users/mathilda0902/badges/micro">
+<img src="https://www.codewars.com/users/mathilda0902/badges/large">
